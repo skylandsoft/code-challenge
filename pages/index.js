@@ -74,7 +74,7 @@ export default () => {
               99,2,14,0,0]
             </code>
           </div>
-          <!-- <p><strong>Solution</strong> (so that you can check your results): <strong>3895705</strong></p> -->
+          <p class="invisible"><strong>Solution</strong> (so that you can check your results): <strong>3895705</strong></p>
           <h2 className="h1">Part II:</h2>
           <p>
             Find values for X and Y that produce an output of 19690720. X and Y will both be between 0 and 99.
@@ -85,9 +85,9 @@ export default () => {
               2,13,75,79,1,5,79,83,2,83,9,87,2,87,13,91,1,91,5,95,2,9,95,99,1,99,5,103,1,2,103,107,1,10,107,0,
               99,2,14,0,0]
             </code>
-          <!-- <p><strong>Solution</strong> (so that you can check your results)</p>
-          <p><strong>X: 64</strong></p>
-          <p><strong>Y: 17</strong></p> -->
+          <p class="invisible"><strong>Solution</strong> (so that you can check your results)</p>
+          <p class="invisible"><strong>X: 64</strong></p>
+          <p class="invisible"><strong>Y: 17</strong></p>
         </div>
       </div>
     
@@ -97,6 +97,9 @@ export default () => {
         }
         .incorrect {
           color: #e42e00;
+        }
+        .invisible {
+          color: #ffffff;
         }
         .page {
           display: flex;
